@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link style="background-color:transparent;" rel="tab icon" type="image/jepg" href="/restuarant.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
          .flex-style {
       border: 3px solid;
@@ -31,7 +32,9 @@
             content: "*";
             color: red;
         }
-        
+        .checked {
+  color: orange;
+}
         .Topheader {
             border: 2px solid;
             width: 100%;
@@ -105,13 +108,13 @@
 
         <b><header for="exp">Your Experience</header></b>
 
-            <div class="rating">
-                <input type="radio" name="star" id="star1"><label for="star1"></label>
-                <input type="radio" name="star" id="star2"><label for="star2"></label>
-                <input type="radio" name="star" id="star3"><label for="star3"></label>
-                <input type="radio" name="star" id="star4"><label for="star4"></label>
-                <input type="radio" name="star" id="star5" required><label for="star5"></label>
-            </div>
+        <h2>Star Rating</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        
             <br>
         <h5>Overal, How would you rate your experience</h5><br>
         <b><header>How satsfied are you with</header></b>
